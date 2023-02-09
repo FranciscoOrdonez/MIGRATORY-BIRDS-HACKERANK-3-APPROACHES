@@ -1,0 +1,21 @@
+approach 3  migratory birds
+def migratoryBirds(arr):
+    count = [0] * 6
+    
+    for bird in arr:
+        
+        count[bird] += 1
+        
+    max_count = max(count)
+    for i in range(1, 6):
+        if count[i] == max_count:
+            return i
+        
+arr = [1, 2, 3, 4, 5, 1, 2, 3, 4, 1]
+print(migratoryBirds(arr))
+
+arr = [1,2,1,2,3,4,5]
+print(migratoryBirds(arr))
+
+arr = [1,2,3,4,5,4,3,2,1,3,4,4,3]
+print(migratoryBirds(arr))    
