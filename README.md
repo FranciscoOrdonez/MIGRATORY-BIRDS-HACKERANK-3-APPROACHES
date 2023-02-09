@@ -1,6 +1,6 @@
 # MIGRATORY-BIRDS-HACKERANK-3-APPROACHES
 
-Here we explain three approaches to this coding challenge, we check the timing with 1 millon iterations for each, and found that the third approach is the more simple and faster approach.
+Here we explain three approaches to this coding challenge, we check the timing with 1 millon iterations for each, and found that the third approach is the more simpler and faster approach.
 
 The challenge is as follows: 
 
@@ -65,7 +65,7 @@ APPROACH 1:
 
 The code for APPROACH 1 is [here](code1a)
 
-The timing for APPROACH 1 WITH 1000000 ITERATIONS is  9.87 SECONDS.  See the code [here[(code1b)
+The timing for APPROACH 1 WITH 1000000 ITERATIONS is  9.87 SECONDS.  See the code [here](code1b)
 
 APPROACH 2
 
